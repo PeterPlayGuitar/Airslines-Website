@@ -1,0 +1,33 @@
+CREATE TABLE 'users' (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `username` varchar(100) NOT NULL,
+    `email` varchar(150) NOT NULL,
+    `password` varchar(100) NOT NULL,
+    `first_name` varchar(80) NOT NULL,
+    `last_name` varchar(80) NOT NULL,
+    `created_at` timestamp DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE 'comments' (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `user_id` int(11) NOT NULL,
+    `comment` text NOT NULL,
+    `created_at` timestamp DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+            ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `places` (`place`) VALUES ('Moscow');
+INSERT INTO `places` (`place`) VALUES ('Maldivies');
+INSERT INTO `places` (`place`) VALUES ('Buenos Aires');
+INSERT INTO `places` (`place`) VALUES ('Los Angeles');
+INSERT INTO `places` (`place`) VALUES ('New York');
+INSERT INTO `places` (`place`) VALUES ('Chicago');
+INSERT INTO `places` (`place`) VALUES ('Istanbul');
+INSERT INTO `places` (`place`) VALUES ('Bangcok');
+INSERT INTO `places` (`place`) VALUES ('Minsk');
+INSERT INTO `places` (`place`) VALUES ('Berlin');
+INSERT INTO `places` (`place`) VALUES ('London');
+INSERT INTO `places` (`place`) VALUES ('Lisabon');

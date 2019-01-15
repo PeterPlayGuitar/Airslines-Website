@@ -1,0 +1,78 @@
+@font-face
+{
+	font-family: thin;
+	src: url(fonts/K2D-Thin.ttf);
+}
+@font-face
+{
+	font-family: light;
+	src: url(fonts/K2D-Light.ttf);
+}
+
+.space4{height: 80px;}
+.space3{height: 60px;}
+.space2{height: 40px;}
+.space1{height: 10px;}
+
+.container
+{
+	border: 2cm;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 84px;
+	border-bottom-right-radius:  84px;
+}
+
+.centered-text
+{
+	text-align: center;
+}
+
+.fill-viewport
+{
+	min-height: 100vh;
+	background: linear-gradient(rgba(0,0,0 ,0.0) 87%, rgba(0,0,0,0.2)),linear-gradient(rgba(0,0,0 ,0.1) 3%, rgba(0,0,0,0.0))  , url('abstraction.png') 0% 0%/cover ;
+}button{
+	margin-right:20px;
+}
+
+#lil-container
+{
+	width: 45vw;
+	padding: 40px;
+	padding-top: 18px;
+	background-color: rgba(255,255,255,0.75);
+	border-radius: 20px;
+}
+
+.font-class
+{
+	margin:0px;
+	font-family: thin;
+	font-size: 30pt;
+}
+
+#come-up-div
+{
+	position: absolute;
+	margin: 40px;
+	width: 400px;
+}
+
+#come-up-div p
+{
+	margin:10px;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: rgba(255,50,50,0.45);
+	font-size: 10pt;
+}
+
+#lil-container h3
+{
+	font-family: thin;
+	margin: 20px auto;
+	font-size: 15pt;
+}

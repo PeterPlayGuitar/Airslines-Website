@@ -1,0 +1,387 @@
+@font-face
+{
+	font-family: thin;
+	src: url(content/fonts/K2D-Thin.ttf);
+}
+@font-face
+{
+	font-family: light;
+	src: url(content/fonts/K2D-Light.ttf);
+}
+
+/* КОНЕЦ ШРИФТОВ!!!!!!!!!!!!!! */
+
+#start-page
+{
+	background: linear-gradient(rgba(0,0,0 ,0.0) 93%, rgba(0,0,0,0.35)) , url('content/clouds.png') 0% 0%/cover ;
+}
+
+#logo
+{
+	background: linear-gradient(rgba(0,0,0 ,0.0), rgba(0,0,0,0)), url('content/logo1.png') 0% 0%/cover ;
+	width: 32vw;
+}
+
+#start-page-p
+{
+	font-size: 20pt;
+}
+
+.space4{height: 80px;}
+.space3{height: 60px;}
+.space2{height: 40px;}
+.space1{height: 20px;}
+
+.fill-viewport
+{
+	min-height: 100vh;
+}
+
+.font1
+{
+	font-family: thin;
+	color: white;
+}
+
+.font2
+{
+	font-family: light;
+	color: white;
+	font-size:18pt;
+}
+
+.blue-gradient
+{
+	background: linear-gradient(90deg, rgba(55,115,196 ,0.58), rgba(0,0,0,0));
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+/* new section */
+
+#branch-page
+{
+	background:  url('content/plane_pic.png') 0% 0%/cover;
+}
+
+#font-branch-page
+{
+	font-family: thin;
+	color: white;
+	font-size: 30pt;
+}
+
+.special-elem1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	height: 160px;
+	background: rgba(255, 255, 255, 0.0);
+	cursor: pointer;
+}
+
+#about
+{
+	display:none;
+}
+#you-should-know
+{
+	display:none;
+}
+#baggage
+{
+	display:none;
+}
+
+#description-page
+{
+	background: url('content/view-down.png') 0% 0%/cover ;
+}
+
+.special-elem2
+{
+	padding: 20px;
+	color: rgba(255,255,255,0);
+}
+
+.cube
+{
+	width: 150px;
+	height: 150px;
+	display: none; 
+	background-color: rgba(255,255,255,0.06);
+}
+
+.under-cube
+{
+	position: absolute;
+	padding:12px;
+	z-index: 1;
+
+}
+
+.under-cube p
+{
+	font-family: thin;
+	margin: 0px;
+}
+
+.inner-cube
+{
+	position: absolute;
+
+	width: 150px;
+	height: 150px;
+
+	z-index: 2;
+}
+
+#you-duno-dat-bitch
+{
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#b1
+{
+	background-color: rgb(82,82,170);
+}
+#b2
+{
+	background-color: rgb(71,71,147);
+}
+#b3
+{
+	background-color: rgb(129,129,194);
+}
+#b4
+{
+	background-color: rgb(162,162,210);
+}
+
+.material-icons
+{
+	margin:40px;
+	width: 20px;
+	font-size: 70px;
+
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#sign-up-page
+{
+	background: linear-gradient(0deg,rgba(0,0,0 ,0.0) 85%, rgba(0,0,0,0.55)), url('content/world.png') 0% 0%/cover ;
+}
+
+.special
+{
+	padding: 30px;
+	background: none;
+	border: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius:  0px;
+}
+
+.dark
+{
+	background-color: rgb(30,30,30);
+	color: rgb(70,70,70)
+}
+
+.margin-down
+{
+	margin-bottom: 40px;
+}
+
+.zoom
+{
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.modal-header {
+   
+     border-bottom: none;
+}
+.modal-title {
+     color:#000;
+}
+ .modal-footer{
+	 display:none;  
+}
+
+#log-up-section
+{
+	background:  linear-gradient(rgba(0,0,0 ,0.7) 0%, rgba(0,0,0,0.2)) , url('https://web.tplgis.org/wp-content/uploads/2018/01/Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg') 50% 30%/cover;
+	padding: 30px;
+}
+
+#log-up-section p
+{
+	font-size: 20pt;
+}
+
+#lil-container
+{
+	width: 200px;
+}
+
+#user-block
+{
+	width: auto;
+	background: linear-gradient( rgb(15, 15, 15), rgb(7, 7, 7) 90%);
+	padding-top: 20px ;
+	padding-bottom: 20px ;
+	padding-left: 13vw;
+	padding-right: 0px;
+	margin: 0px;
+}
+
+#user-block .row
+{
+	margin:0px;
+}
+
+#user-block h5
+{
+	margin:0px;
+}
+
+.button-div
+{
+	display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+	margin-left: 90px;
+}
+
+.button-div button
+{
+	-webkit-flex: 1;
+	flex: 1;
+	font-family: light;
+}
+
+.little-cute-block
+{
+	background-color: white;
+	border-radius: 2px;
+	width:20px;
+	margin: 0px 10px;
+}
+
+a{
+	text-decoration-line: none;
+ }
+ a:hover{
+	color:inherit;
+ }
+
+ .btn2{
+	text-align: center;
+	/* margin: 20px; */
+	display: inline-block; 
+	width: 150px;
+	height: 50px;
+	margin: 5px 50px;
+	/* position: absolute; */
+	transform: translateY(0%);
+	border-radius: 5px;
+	background-color: #f1f1f1;
+	box-shadow: 0 7px 18px -7px #ffffff70;
+	color:black;
+	font-size: 20px;
+	font-family: thin;
+	overflow: hidden;
+  }
+  
+  .btn2 i{
+	color:black;
+	line-height: 50px;
+	margin-left: 10px;
+	transition: 0.2s linear;
+  }
+  
+  .btn2 span{
+	transition: 0.2s linear;
+  }
+  
+  .btn2:hover i{
+	color:#f1f1f1;
+	transform:scale(1.5);
+	margin-left: 0px;
+  }
+  
+  .btn2:hover span{
+	color:#f1f1f1;
+	display: none;
+  }
+  
+  .btn2::before{
+	content: "";
+	position: absolute;
+	background-color: #3498db;
+	width: 100%;
+	left: 0%;
+  }
+  
+  .btn2:hover::before{
+	animation: bbb 0.7s 1;
+	height: 163%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+  }
+  
+  @keyframes bbb {
+	0%{
+	  height: 0%;
+	}100%{
+	  height: 163%;
+	}
+  }
+
+  
+ .btn3{
+	text-align: center;
+	/* margin: 20px; */
+	display: inline-block; 
+	width: 150px;
+	height: 50px;
+	margin: 5px 50px;
+	/* position: absolute; */
+	transform: translateY(0%);
+	border-radius: 5px;
+	background-color: #eb2b2b;
+	box-shadow: 0 7px 18px -7px #ffffff70;
+	color:black;
+	font-size: 20px;
+	font-family: thin;
+	overflow: hidden;
+  }
+
+  .btn3 i{
+	color:black;
+	line-height: 50px;
+	margin-left: 10px;
+	transition: 0.2s linear;
+  }
